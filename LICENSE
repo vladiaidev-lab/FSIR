@@ -1,0 +1,65 @@
+# LICENSE
+
+## FSIR Dataset — Annotations and Code
+
+This work is licensed under the **Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA 4.0)**.
+
+Full license text: https://creativecommons.org/licenses/by-sa/4.0/legalcode
+
+You are free to:
+- **Share** — copy and redistribute the material in any medium or format for any purpose, even commercially
+- **Adapt** — remix, transform, and build upon the material for any purpose, even commercially
+
+Under the following terms:
+- **Attribution** — You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.
+- **ShareAlike** — If you remix, transform, or build upon the material, you must distribute your contributions under the same license as the original.
+- **No additional restrictions** — You may not apply legal terms or technological measures that legally restrict others from doing anything the license permits.
+
+---
+
+## Component Licenses
+
+This dataset incorporates annotations built upon materials from various sources, each under its own license. The original images and data are NOT included in this repository and remain under their original licenses.
+
+### 1. Visual Genome
+- **License:** Apache License, Version 2.0
+- **Source:** https://homes.cs.washington.edu/~ranjay/visualgenome/
+- **Full license:** https://www.apache.org/licenses/LICENSE-2.0
+
+### 2. Flickr30K
+- **License:** CC0 1.0 Universal (Public Domain Dedication)
+- **Source:** http://shannon.cs.illinois.edu/DenotationGraph/
+- **Full license:** https://creativecommons.org/publicdomain/zero/1.0/
+
+### 3. FGVC-Aircraft
+- **License:** Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)
+- **Source:** https://www.robots.ox.ac.uk/~vgg/data/fgvc-aircraft/
+- **Full license:** https://creativecommons.org/licenses/by-sa/4.0/
+
+### 4. DTD (Describable Textures Dataset)
+- **License:** Apache License, Version 2.0
+- **Source:** https://www.robots.ox.ac.uk/~vgg/data/dtd/
+- **Full license:** https://www.apache.org/licenses/LICENSE-2.0
+
+### 5. EuroSAT
+- **License:** Apache License, Version 2.0
+- **Source:** https://github.com/phelber/eurosat
+- **Full license:** https://www.apache.org/licenses/LICENSE-2.0
+
+---
+
+## Why CC BY-SA 4.0?
+
+The FGVC-Aircraft dataset is licensed under CC BY-SA 4.0, which requires that derivative works be distributed under the same or a compatible license. Since our annotations reference FGVC-Aircraft data, the ShareAlike condition applies. CC BY-SA 4.0 is compatible with the Apache 2.0 and CC0 licenses of the other source datasets.
+
+---
+
+## Note on INQUIRE
+
+INQUIRE annotations are NOT included in this repository due to INQUIRE's CC BY-NC 4.0 license, which restricts commercial use. We provide scripts to independently generate INQUIRE-based annotations. Users who do so must comply with INQUIRE's license terms (https://creativecommons.org/licenses/by-nc/4.0/).
+
+---
+
+## Disclaimer
+
+Users are solely responsible for ensuring their use of this dataset complies with all applicable license terms of both this repository and the original source datasets. The creators of FSIR make no warranties regarding the dataset and disclaim all liability for any use that violates the applicable license terms.
